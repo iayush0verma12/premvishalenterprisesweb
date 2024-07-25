@@ -9,7 +9,7 @@ const AuthNavigation: FC = () => {
 
   const handleButtonClick = () => {
     setShowPhoneNumber(!showPhoneNumber);
-  };
+  }
 
   return (
     <Box sx={{ '& button:first-child': { mr: 2 } }}>
@@ -24,7 +24,7 @@ const AuthNavigation: FC = () => {
           <Box display="flex" alignItems="center">
             <Image
               src="/images/contact.png"
-              alt="Logo"
+              alt="Contact Icon"
               width={20}
               height={20}
               style={{ marginRight: 8 }}
@@ -33,22 +33,10 @@ const AuthNavigation: FC = () => {
               Phone Number: +91-7033664425
             </Typography>
           </Box>
-          {/* <Box display="flex" alignItems="center">
-            <img
-              src="/images/alternate.png"
-              alt="Logo"
-              width={20}
-              height={20}
-              style={{ marginRight: 8 }}
-            />
-            <Typography variant="body1">
-              Alternate Number: 7033664425
-            </Typography>
-          </Box> */}
-          <Box display="flex" alignItems="center">
+          <Box display="flex" alignItems="center" sx={{ mt: 1 }}>
             <Image
               src="/images/email.png"
-              alt="Logo"
+              alt="Email Icon"
               width={20}
               height={20}
               style={{ marginRight: 8 }}
@@ -60,7 +48,7 @@ const AuthNavigation: FC = () => {
         </Box>
       )}
     </Box>
-  );
-};
+  )
+}
 
 export default AuthNavigation;

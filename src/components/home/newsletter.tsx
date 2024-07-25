@@ -23,7 +23,7 @@ const HomeNewsLetter: FC = () => {
           }}
         >
           <Typography variant="h1" component="h2" sx={{ mb: 1, fontSize: { xs: 32, md: 42 } }}>
-          Click here to receive catalogs, product details, and more information
+            Click here to receive catalogs, product details, and more information
           </Typography>
           <Typography sx={{ mb: 6 }}>Click the button below to send us an email and get information about our products.</Typography>
 

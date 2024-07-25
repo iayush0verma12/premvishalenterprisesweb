@@ -9,8 +9,8 @@ import { StyledButton } from '@/components/styled-button';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 
 interface Exp {
-  label: string;
-  value: string;
+  label: string
+  value: string
 }
 
 interface ExpItemProps {
@@ -30,7 +30,7 @@ const exps: Array<Exp> = [
     label: 'Years in Business',
     value: '20+',
   },
-];
+]
 
 const ExpItem: FC<ExpItemProps> = ({ item }) => {
   const { value, label } = item;
@@ -45,8 +45,8 @@ const ExpItem: FC<ExpItemProps> = ({ item }) => {
         {label}
       </Typography>
     </Box>
-  );
-};
+  )
+}
 
 const HomeHero: FC = () => {
   return (
@@ -182,7 +182,7 @@ const HomeHero: FC = () => {
         </Box>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
 export default HomeHero;

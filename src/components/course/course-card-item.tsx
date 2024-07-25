@@ -64,7 +64,7 @@ const CourseCardItem: FC<Props> = ({ item }) => {
         </Box>
       </Box>
     </Box>
-  );
+  )
 }
 
 export default CourseCardItem;
