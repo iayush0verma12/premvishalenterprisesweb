@@ -7,7 +7,7 @@ import Image from 'next/image';
 const AuthNavigation: FC = () => {
   const [showPhoneNumber, setShowPhoneNumber] = useState(false);
 
-  const handleButtonClick = () => {
+  const handleButtonClick = (): void => {  // Added return type `void`
     setShowPhoneNumber(!showPhoneNumber);
   }
 
@@ -48,7 +48,7 @@ const AuthNavigation: FC = () => {
         </Box>
       )}
     </Box>
-  )
+  );
 }
 
 export default AuthNavigation;
