@@ -11,7 +11,7 @@ const Logo: FC<Props> = ({ onClick, variant }) => {
   return (
   <Box onClick={onClick}>
       <Image
-        src="/images/pve.svg"
+        src="/pve.ico"
         alt="Course Logo"
         width={80} // Adjust width as needed
         height={80} // Adjust height as needed
