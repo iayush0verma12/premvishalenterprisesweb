@@ -142,7 +142,7 @@ const HomeHero: FC = () => {
                 </Typography>
               </Box>
               <Box sx={{ '& button': { mr: 2 } }}>
-                <a href="https://wa.me/919661737171" style={{ textDecoration: 'none' }}>
+                <a href="https://wa.me/917033664425" style={{ textDecoration: 'none' }}>
                   <StyledButton color="primary" size="large" variant="contained">
                     Shop Now
                   </StyledButton>
