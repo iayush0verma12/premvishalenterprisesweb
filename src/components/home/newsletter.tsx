@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import { StyledButton } from '../styled-button';
 
 const HomeNewsLetter: FC = () => {
-  const handleEmailClick = () => {
+  const handleEmailClick = (): void => {  // Added return type `void`
     window.location.href = `mailto:premvishalenterprises@gmail.com?subject=Inquiry about products&body=Dear Prem Vishal Enterprises,%0D%0A%0D%0AI would like to receive catalogues, product details, and more information about your offerings.[Enter Specific detail about any particular product.]%0D%0A%0D%0AThank you,%0D%0A[Your Name]`;
   };
 
