@@ -12,7 +12,7 @@ export const data: Array<Course> = [
   },
   {
     id: 2,
-    cover: '/images/courses/gps.jpg',
+    cover: '/images/courses/IMG_1089.png',
     title: 'CCTV CAMERAS',
     rating: 5,
     ratingCount: 15,
@@ -39,7 +39,7 @@ export const data: Array<Course> = [
   },
   {
     id: 5,
-    cover: '/images/courses/goldtest.png',
+    cover: '/images/courses/IMG_1090.png',
     title: 'Gold Testing Machine',
     rating: 4,
     ratingCount: 32,
@@ -57,7 +57,7 @@ export const data: Array<Course> = [
   },
   {
     id: 7,
-    cover: '/images/courses/IMG_1094.png',
+    cover: '/images/courses/gps.jpg',
     title: 'GPS TRACKING',
     rating: 4,
     ratingCount: 6,
