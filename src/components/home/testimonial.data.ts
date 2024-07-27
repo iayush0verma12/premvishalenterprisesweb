@@ -10,7 +10,7 @@ export const data: Array<Testimonial> = [
       id: 1,
       name: 'Gaya, Bihar',
       professional: 'Jain Mandir Road',
-      photo: '1.jpg',
+      photo: 'pu/images/avatars/1.jpg',
     },
   },
   {
@@ -22,7 +22,7 @@ export const data: Array<Testimonial> = [
       id: 1,
       name: 'Gaya, Bihar',
       professional: 'Station Road',
-      photo: '2.jpg',
+      photo: '/images/avatars/2.jpg',
     },
   },
   {
@@ -34,7 +34,7 @@ export const data: Array<Testimonial> = [
       id: 1,
       name: 'Patna, Bihar',
       professional: 'Bakerganj Main Road patna',
-      photo: '3.jpg',
+      photo: '/images/avatars/4.jpg',
     },
   },
   {
@@ -46,7 +46,7 @@ export const data: Array<Testimonial> = [
       id: 1,
       name: 'Patna, Bihar',
       professional: 'Bakerganj patna',
-      photo: '3.jpg',
+      photo: '/images/avatars/4.jpg',
     },
   },
 ]
