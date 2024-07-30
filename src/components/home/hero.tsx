@@ -138,7 +138,7 @@ const HomeHero: FC = () => {
               </Box>
               <Box sx={{ mb: 4, width: { xs: '100%', md: '70%' } }}>
                 <Typography sx={{ color: 'text.secondary', lineHeight: 1.6 }}>
-                  Discover a range of products designed to bring accuracy, security, and beauty to your life and business.
+                  Find a range of products designed to bring accuracy, security, and beauty to your life and business.
                 </Typography>
               </Box>
               <Box sx={{ '& button': { mr: 2 } }}>
